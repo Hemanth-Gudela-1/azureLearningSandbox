@@ -1,0 +1,9 @@
+{
+	"name": "adf-course-hemanth",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a08e290a-ec77-410f-8930-35b6d3ffb2c3",
+		"tenantId": "36e917dc-1abe-43f4-b189-f92196a6b4ad"
+	}
+}
