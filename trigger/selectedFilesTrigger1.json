@@ -2,7 +2,7 @@
 	"name": "selectedFilesTrigger1",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipelines": [
 			{
 				"pipelineReference": {
@@ -16,8 +16,8 @@
 			"recurrence": {
 				"frequency": "Minute",
 				"interval": 15,
-				"startTime": "2026-02-01T16:13:45",
-				"endTime": "2026-02-01T16:13:45",
+				"startTime": "2026-02-01T16:17:45",
+				"endTime": "2026-02-01T16:22:45",
 				"timeZone": "India Standard Time"
 			}
 		}
