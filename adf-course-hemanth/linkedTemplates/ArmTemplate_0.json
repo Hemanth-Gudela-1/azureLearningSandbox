@@ -768,12 +768,12 @@
 			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/selectedFilesTrigger')]",
+			"name": "[concat(parameters('factoryName'), '/selectedFilesTrigger1')]",
 			"type": "Microsoft.DataFactory/factories/triggers",
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"annotations": [],
-				"runtimeState": "Started",
+				"runtimeState": "Stopped",
 				"pipelines": [
 					{
 						"pipelineReference": {
@@ -788,8 +788,8 @@
 					"recurrence": {
 						"frequency": "Minute",
 						"interval": 15,
-						"startTime": "2026-01-28T17:17:00",
-						"endTime": "2026-01-28T17:22:00",
+						"startTime": "2026-02-01T16:13:45",
+						"endTime": "2026-02-01T16:13:45",
 						"timeZone": "India Standard Time"
 					}
 				}
