@@ -13,7 +13,7 @@
 		],
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
-			"blobPathBeginsWith": "/source/blobs/source/csvfiles/Fact_Sales_1.csv",
+			"blobPathBeginsWith": "/source/blobs/source/csvfiles/",
 			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/acf1a358-b99c-4f1f-b79b-9597fdf87f6a/resourceGroups/RG-ADFCourse/providers/Microsoft.Storage/storageAccounts/storagedatahemanth",
 			"events": [
