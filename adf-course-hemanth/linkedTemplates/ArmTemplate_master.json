@@ -19,11 +19,7 @@
 			"type": "string",
 			"defaultValue": "https://storagedatahemanth.dfs.core.windows.net/"
 		},
-		"manTrigger_properties_typeProperties_scope": {
-			"type": "string",
-			"defaultValue": "/subscriptions/acf1a358-b99c-4f1f-b79b-9597fdf87f6a/resourceGroups/RG-ADFCourse/providers/Microsoft.Storage/storageAccounts/storagedatahemanth"
-		},
-		"managerTrigger_properties_typeProperties_scope": {
+		"managrTrigger_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/acf1a358-b99c-4f1f-b79b-9597fdf87f6a/resourceGroups/RG-ADFCourse/providers/Microsoft.Storage/storageAccounts/storagedatahemanth"
 		},
@@ -63,11 +59,8 @@
 					"linkserviceDL_properties_typeProperties_url": {
 						"value": "[parameters('linkserviceDL_properties_typeProperties_url')]"
 					},
-					"manTrigger_properties_typeProperties_scope": {
-						"value": "[parameters('manTrigger_properties_typeProperties_scope')]"
-					},
-					"managerTrigger_properties_typeProperties_scope": {
-						"value": "[parameters('managerTrigger_properties_typeProperties_scope')]"
+					"managrTrigger_properties_typeProperties_scope": {
+						"value": "[parameters('managrTrigger_properties_typeProperties_scope')]"
 					}
 				}
 			},
